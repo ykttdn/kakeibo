@@ -18,6 +18,7 @@
   "homepage": "https://github.com/ykttdn/kakeibo#readme",
   "devDependencies": {
     "eslint": "^8.20.0",
+    "eslint-config-google": "^0.14.0",
     "eslint-plugin-vue": "^9.2.0"
   }
 }
