@@ -1,5 +1,5 @@
 app.component('purchase-form', {
-  template: 
+  template:
   /* html */
   `
   <form class="form">
@@ -16,7 +16,10 @@ app.component('purchase-form', {
     </select>
 
     <label for="date">日付</label>
-    <input id="date" type="datetime-local" min="2000-01-01T00:00" max="2099-12-31T23:59" step="3600" required>
+    <input
+      id="date" type="datetime-local"
+      min="2000-01-01T00:00" max="2099-12-31T23:59" step="3600" required
+    >
 
     <label for="place">場所</label>
     <input id="place" type="text">
@@ -24,5 +27,5 @@ app.component('purchase-form', {
     <label for="memo">メモ</label>
     <textarea name="memo" id="memo" cols="30" rows="4"></textarea>
   </form>
-  `
-})
+  `,
+});
