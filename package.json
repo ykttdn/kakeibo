@@ -1,0 +1,24 @@
+{
+  "name": "kakeibo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ykttdn/kakeibo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ykttdn/kakeibo/issues"
+  },
+  "homepage": "https://github.com/ykttdn/kakeibo#readme",
+  "devDependencies": {
+    "eslint": "^8.20.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-vue": "^9.2.0"
+  }
+}

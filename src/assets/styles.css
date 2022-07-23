@@ -4,6 +4,31 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#app {
+  padding: 8px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  border: solid #000 1px;
+}
+
+input:invalid {
+  border: solid #f00 3px;
+}
+
+select {
+  border: solid #000 1px;
+}
+
+textarea {
+  border: solid #000 1px;
+}
+
 @media screen and (min-width: 768px), print {
   #app {
     max-width: 1000px;

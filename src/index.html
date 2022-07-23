@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,10 +11,20 @@
 </head>
 <body>
   <div id="app">
-    {{ message }}
+    <record-display></record-display>
   </div>
 
   <!-- Import App -->
   <script src="./main.js"></script>
+
+  <!-- Import Components -->
+  <script src="./components/RecordDisplay.js"></script>
+  <script src="./components/PurchaseForm.js"></script>
+  <script src="./components/PurchaseHistory.js"></script>
+
+  <!-- Mount App -->
+  <script>
+    const mountedApp = app.mount('#app')
+  </script>
 </body>
 </html>

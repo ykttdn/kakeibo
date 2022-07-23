@@ -1,9 +1,8 @@
+// eslint-disable-next-line no-unused-vars
 const app = Vue.createApp({
   data() {
     return {
-      message: "Hello World"
-    }
-  }
-})
-
-const mountedApp = app.mount('#app')
+      message: 'Hello World',
+    };
+  },
+});
