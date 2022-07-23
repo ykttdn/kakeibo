@@ -21,6 +21,10 @@ input:invalid {
   border: solid #f00 3px;
 }
 
+select {
+  border: solid #000 1px;
+}
+
 textarea {
   border: solid #000 1px;
 }
